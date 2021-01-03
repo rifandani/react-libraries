@@ -1,0 +1,26 @@
+{
+  "name": "rifandani-react-libraries",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rm -rf ./.next && next",
+    "build": "next build",
+    "start": "next start",
+    "build:export": "next build && next export",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "next": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-map-gl": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-map-gl": "^5.2.9",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
