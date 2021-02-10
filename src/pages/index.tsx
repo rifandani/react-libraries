@@ -12,6 +12,10 @@ const IndexPage = () => {
       <Link href="/react-leaflet">
         <a className="italic hover:text-blue-500 ">react-leaflet</a>
       </Link>
+
+      <Link href="/next-auth">
+        <a className="italic hover:text-blue-500 ">next-auth</a>
+      </Link>
     </div>
   );
 };
